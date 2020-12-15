@@ -1,0 +1,21 @@
+-- CREATE TABLE blogs(
+--   id INT NOT NULL AUTO_INCREMENT,
+--   title VARCHAR(80),
+--   author VARCHAR(50),
+--   description VARCHAR(255),
+--   isPublished TINYINT,
+--   PRIMARY KEY (id)
+-- )
+
+INSERT INTO blogs(
+  title,
+  author,
+  description,
+  isPublished
+)
+VALUES(
+  "An Important Blog",
+  "Monroe Gollaher",
+  "It's a very good and important blog",
+  true
+)
